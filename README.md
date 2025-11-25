@@ -40,9 +40,9 @@ Use the trained model to predict  for a new input value .
 
 ## PROGRAM
 
-### Name: Hari Prasath P
+### Name: Vignesh.v
 
-### Register Number: 212223230070
+### Register Number: 212223230241
 
 ```python
 class Model(nn.Module):
@@ -58,8 +58,8 @@ torch.manual_seed(59)  # Ensure same initial weights
 model = Model(1, 1)
 initial_weight = model.linear.weight.item()
 initial_bias = model.linear.bias.item()
-print("\nName: Hari Prasath P")
-print("Register No: 212223230070")
+print("\nName: Vignesh v")
+print("Register No: 212223230241")
 print(f'Initial Weight: {initial_weight:.8f}, Initial Bias: {initial_bias:.8f}\n')
 # Define Loss Function & Optimizer
 loss_function = nn.MSELoss()
